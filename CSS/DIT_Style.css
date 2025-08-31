@@ -1,0 +1,47 @@
+
+        /* selector ตำแหน่งที่จะใส่ css */
+        h1{
+            text-align: center;
+            color:rgb(255, 0, 0);
+        }
+        h3{
+            text-align: center;
+            color: rgb(55, 0, 255);
+        }
+        #A01{
+            text-align: center;
+            margin-left: 100px;
+            margin-right: 100px;
+        }
+        #A02{
+            text-align: center;
+            margin-left: 150px;
+            margin-right: 150px;
+            color: blueviolet;
+        }
+        img{
+            width: 100px;
+            padding: 10px
+            
+        }
+        #p1{
+            border: 2px solid #a304ff;
+            border-radius: 10px;
+        }
+        #p2{
+            border: 2px solid #45006d;
+            border-radius: 10px;
+            margin-left: 20px; margin-right: 20px;
+        }
+        #p3{
+            border: 2px solid #230033;
+            border-radius: 10px;
+        }
+        #p4{
+            display: flex; justify-content: center; margin-top: 50px; margin-bottom: 50px;
+        }
+        #p5{
+            text-align: center; margin: bottom 150px;
+        }
+
+    
