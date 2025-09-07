@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    /* general*/
+    /* selector1 ~ selector2 คือ selector2 ทั้งหมดที่อยู่ต่อ selector1 */
+    /* ~ = alt 1 + 2 + 6 */
+  #aa ~ p{
+    color: rgb(255, 6, 6);
+    background-color: aqua;
+    border: 2px solid rgb(0, 0, 0);
+    padding-left: 3rem;
+  }
+</style>
+<body>
+    <div id="aa">
+        <p>111</p>  
+        <p>222</p>
+        <span>hello</span>
+            <div id="bb">
+            <p>333</p>  
+            <div id="cc">
+                 <p>444</p> 
+            </div>
+        </div>
+        <p>555</p>
+    </div>
+<p>666</p>
+<p>777</p>
+<span>hey</span>
+<p>888</p>
+
+</body>
+</html>
